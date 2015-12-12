@@ -1,0 +1,28 @@
+{
+  "uniforms": [
+    "spritesheet"
+  ],
+  "animations": {
+    "walk_up": {
+      "order": "0-1-2-3-2-1",
+      "steps": [
+        {
+          "image": "@spritesheet.p1_walk01",
+          "steplength": "0.5"
+        },
+        {
+          "image": "@spritesheet.p1_walk02",
+          "steplength": "0.5"
+        },
+        {
+          "image": "@spritesheet.p1_walk03",
+          "steplength": "0.5"
+        },
+        {
+          "image": "@spritesheet.p1_walk04",
+          "steplength": "0.5"
+        }
+      ]
+    }
+  }
+}
